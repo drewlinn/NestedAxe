@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33aa13fd8dbbcba449ce0a8673667cd7, type: 3}
   m_Name: Hair
   m_EditorClassIdentifier: 
-  name: NewItem
+  name: Hair
   icon: {fileID: 0}
-  isDefaultItem: 0
+  isDefaultItem: 1
   equipSlot: 0
-  mesh: {fileID: 0}
+  mesh: {fileID: 137625772513401944, guid: ef02489a128df1d4181533729d90e8f2, type: 2}
   coveredMeshRegions: 
   armorModifier: 0
   damageModifier: 0
