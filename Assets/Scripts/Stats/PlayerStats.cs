@@ -21,4 +21,9 @@ public class PlayerStats : CharacterStats {
             damage.RemoveModifier(oldItem.damageModifier);
         }        
     }
+    public override void Die()
+    {
+        base.Die();
+        PlayerManager.instance.KillPlayer();
+    }
 }
